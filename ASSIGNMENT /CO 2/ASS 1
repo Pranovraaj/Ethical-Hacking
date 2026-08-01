@@ -1,7 +1,10 @@
 CO 2 - ASS 1
 
 
-1.	A security analyst performed a network scan on the target 192.168.1.10 using the Nmap tool. The report identified several open ports, including HTTP (80), SSH (22), and MySQL (3306), along with the operating system and service versions. Analyze the report and explain the security risks associated with the identified services. Discuss how an attacker could exploit these services and recommend suitable security measures to protect the target system. (20 Marks)
+1.	A security analyst performed a network scan on the target 192.168.1.10 using the Nmap tool. 
+The report identified several open ports, including HTTP (80), SSH (22), and MySQL (3306),
+along with the operating system and service versions. Analyze the report and explain the security risks associated with the identified services.
+Discuss how an attacker could exploit these services and recommend suitable security measures to protect the target system. (20 Marks)
 
 # Basic scan of the target
 nmap 192.168.1.10
@@ -29,7 +32,10 @@ sudo nmap -Pn -A 192.168.1.10
 
 
 
-2.	A phishing awareness campaign was conducted for employees of ABC Technologies Pvt. Ltd. Using the GoPhish tool. The report indicates that 40% of employees clicked the phishing link, 20% entered their login credentials, and several users downloaded a malicious attachment. Analyze the report and identify the security weaknesses demonstrated by the employees. Recommend suitable user awareness programs, email security controls, and organizational policies to reduce the risk of successful social engineering attacks.(20 Mark).
+2.	A phishing awareness campaign was conducted for employees of ABC Technologies Pvt. Ltd. Using the GoPhish tool. 
+The report indicates that 40% of employees clicked the phishing link, 20% entered their login credentials,
+and several users downloaded a malicious attachment. Analyze the report and identify the security weaknesses demonstrated by the employees. 
+Recommend suitable user awareness programs, email security controls, and organizational policies to reduce the risk of successful social engineering attacks.(20 Mark).
 
 # Update Kali Linux packages
 sudo apt update
@@ -62,7 +68,10 @@ Password: <generated password shown in the terminal>
 # 5. Launch Campaign
 # 6. View Campaign Results
 
-3.	A DNS assessment report generated using the Dig tool shows that the organization&#39;s DNS server permits a successful DNS Zone Transfer (AXFR), exposing internal hostnames, mail servers, and DNS records. Analyze the report and explain the security implications of the exposed information. Discuss how attackers could exploit these findings and recommend best practices to secure the DNS infrastructure. (10 Marks)
+3.	A DNS assessment report generated using the Dig tool shows that the organization&#39;
+s DNS server permits a successful DNS Zone Transfer (AXFR), exposing internal hostnames, 
+mail servers, and DNS records. Analyze the report and explain the security implications of the exposed information. 
+Discuss how attackers could exploit these findings and recommend best practices to secure the DNS infrastructure. (10 Marks)
 
 # Query DNS records
 dig example.com
