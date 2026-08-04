@@ -1,0 +1,8 @@
+# Detect the version of services running
+nmap -sV 127.0.0.1
+
+# Aggressive Scan
+nmap -A 127.0.0.1
+
+# Detect the operating system of the target
+sudo nmap -O 127.0.0.1
