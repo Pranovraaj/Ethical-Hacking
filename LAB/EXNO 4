@@ -1,0 +1,8 @@
+#ls command
+ls
+
+#cat command
+cat file1.txt
+
+#mkdir command
+mkdir newfolder4
