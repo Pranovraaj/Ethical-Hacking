@@ -1,0 +1,5 @@
+# Polite IDS Evasion
+nmap -T2 127.0.0.1
+
+# Normal IDS Evasion
+nmap -T3 127.0.0.1
