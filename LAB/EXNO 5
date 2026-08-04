@@ -1,0 +1,14 @@
+#uptime
+uptime
+
+#date command
+date
+
+#mv command
+cd newfolder
+ls
+mv file1.txt note.txt
+mv note.txt newfolder2
+cd..
+mv note.txt file1.txt
+ls
