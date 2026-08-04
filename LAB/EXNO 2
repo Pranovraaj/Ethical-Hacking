@@ -1,0 +1,15 @@
+#add content in file
+echo "ethical hacking">sample.txt
+echo "cyber security">>sample.txt
+
+#display cocntent inside file
+cat sample.txt
+
+#less command
+less sample.txt
+
+#more command
+more sample.txt
+
+#vi command
+vi sample.txt
