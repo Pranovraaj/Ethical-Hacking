@@ -1,0 +1,11 @@
+#cd
+cd newfolder
+
+#cp
+echo "this is line1">file2.txt
+cp file2.txt sample2.txt
+cat sample2.txt
+
+#ls
+ls
+ls newfolder2
