@@ -1,0 +1,35 @@
+# creating new folders
+mkdir newfolder
+cd newfolder
+touch file1.txt
+mkdir newfolder2 newfolder3
+touch newfolder/file2.txt
+touch newfolder/file3.txt
+
+
+# content inside file
+echo "Linux" > file1.txt
+echo "Kali" >> file1.txt
+echo "Security" >> file1.txt
+echo "Network" >> file1.txt
+echo "Terminal" >> file1.txt
+echo "Commands" >> file1.txt
+echo "Files" >> file1.txt
+echo "Folders" >> file1.txt
+echo "Hacking" >> file1.txt
+echo "Computer" >> file1.txt
+echo "Programming" >> file1.txt
+echo "Shell" >> file1.txt
+
+
+
+#tree command
+tree
+
+
+#head command
+head file1.txt
+
+
+#tail command
+tail file1.txt
