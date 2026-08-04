@@ -1,0 +1,8 @@
+#touch command
+touch sample.txt
+
+#pwd
+pwd
+
+#wget
+wget httpa://example.com
