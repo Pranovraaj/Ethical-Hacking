@@ -1,0 +1,10 @@
+#free command
+free -h
+
+#sort command
+cd newfolder
+echo -e "orange\napple\npineaaple\nmango"> file1.txt
+sort file1.txt
+
+#history command
+history
